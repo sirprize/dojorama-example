@@ -1,0 +1,18 @@
+[
+    {
+        id: "123",
+        title: "Menta Latte Remixe",
+        artist: "Matias Aguayo",
+        releaseDate: "2010-09-13",
+        published: 1,
+        info: "A groundbreaking cocktail of latin fueled songs"
+    },
+    {
+        id: "456",
+        title: "Looping State Of Mind Remixe",
+        artist: "The Field",
+        releaseDate: "2012-07-30",
+        published: 1,
+        info: "High-caliber remix collection featuring Junior Boys, Blondes and Mohn"
+    }
+]

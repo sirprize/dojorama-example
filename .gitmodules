@@ -10,3 +10,12 @@
 [submodule "vendor/sirprize/dojomat"]
 	path = vendor/sirprize/dojomat
 	url = git://github.com/sirprize/dojomat.git
+[submodule "vendor/SitePen/dgrid"]
+	path = vendor/SitePen/dgrid
+	url = git://github.com/SitePen/dgrid.git
+[submodule "vendor/kriszyp/put-selector"]
+	path = vendor/kriszyp/put-selector
+	url = git://github.com/kriszyp/put-selector.git
+[submodule "vendor/kriszyp/xstyle"]
+	path = vendor/kriszyp/xstyle
+	url = git://github.com/kriszyp/xstyle.git
