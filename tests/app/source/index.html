@@ -9,15 +9,19 @@
                 cacheBust: 1,
                 packages: [ // paths are relative to vendor/dojo/dojo/dojo.js
                     { name: 'dojorama', location: '../../..' },
-                    { name: 'mijit', location: '../../sirprize/mijit' }
-                ]
+                    { name: 'mijit', location: '../../sirprize/mijit' },
+                    { name: 'routed', location: '../../sirprize/routed' },
+                    { name: 'dojomat', location: '../../sirprize/dojomat' }
+                ],
+                'routing-map': {
+                    pathPrefix: '/tests/app/source'
+                }
             };
         </script>
         <script src="/vendor/dojo/dojo/dojo.js"></script>
         <script>
-            require(['dojorama/ui/home/HomePage', 'dojo/domReady!'], function(HomePage) {
-                var page = new HomePage({}, 'page');
-                page.startup();
+            require(['dojorama/App'], function(App) {
+                new App();
             });
         </script>
         <script>

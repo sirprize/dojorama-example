@@ -2,20 +2,20 @@ define([
     "dojo/_base/declare",
     "mijit/_WidgetBase",
     "mijit/_TemplatedMixin",
-    "dojomat/_AppAware", // << updated
+    "dojomat/_AppAware",
     "../_global/widget/NavigationWidget",
-    "dojo/text!./templates/HomePage.html",
-    "dojo/text!./css/HomePage.css"
+    "dojo/text!./templates/ReleaseIndexPage.html",
+    "dojo/text!./css/ReleaseIndexPage.css"
 ], function (
     declare,
     _WidgetBase,
     _TemplatedMixin,
-    _AppAware, // << updated
+    _AppAware,
     NavigationWidget,
     template,
     css
 ) {
-    return declare([_WidgetBase, _TemplatedMixin, _AppAware], { // << updated
+    return declare([_WidgetBase, _TemplatedMixin, _AppAware], {
         request: null,
         router: null,
         session: null,
@@ -30,11 +30,11 @@ define([
 
         postCreate: function () {
             this.inherited(arguments);
-            this.setCss(css); // updated
-            this.setTitle('Home'); // updated
+            this.setCss(css);
+            this.setTitle('Releases');
 
             this.navigationWidget = new NavigationWidget({
-                router: this.router // << updated
+                router: this.router
             }, this.navigationNode);
         },
 

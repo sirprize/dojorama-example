@@ -4,3 +4,9 @@
 [submodule "vendor/sirprize/mijit"]
 	path = vendor/sirprize/mijit
 	url = git://github.com/sirprize/mijit.git
+[submodule "vendor/sirprize/routed"]
+	path = vendor/sirprize/routed
+	url = git://github.com/sirprize/routed.git
+[submodule "vendor/sirprize/dojomat"]
+	path = vendor/sirprize/dojomat
+	url = git://github.com/sirprize/dojomat.git
